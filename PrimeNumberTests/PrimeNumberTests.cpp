@@ -9,6 +9,8 @@ namespace PrimeNumberTests
 	{
 	public:
 		
+		TEST_METHOD(TestMethod1)
+		{
 		TEST_METHOD(TestPrimeNumbers) {
 			Assert::AreEqual(1, isPrime(2));
 			Assert::AreEqual(1, isPrime(3));
